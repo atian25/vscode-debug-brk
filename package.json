@@ -1,0 +1,15 @@
+{
+  "name": "vscode-debug-brk",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "debug": "node --inspect-brk index.js"
+  }
+}
