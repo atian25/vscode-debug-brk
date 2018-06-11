@@ -7,9 +7,6 @@
       "request": "launch",
       "cwd": "${workspaceRoot}",
       "runtimeExecutable": "npm",
-      "windows": {
-        "runtimeExecutable": "npm.cmd"
-      },
       "runtimeArgs": [
         "run",
         "debug",

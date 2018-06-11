@@ -1,9 +1,8 @@
 'use strict';
 
-const cp = require('child_process');
+const is = require('is-type-of');
 
-// fork agent
-cp.fork('./agent', [], {
-  execArgv: process.execArgv.concat([ '--debug-port=5800' ]),
-});
+setInterval(() => {
+  console.log(is.string('vscode'));
+}, 3000);
 
